@@ -1,0 +1,45 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Build results
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Unreal generated files
+*.opensdf
+*.sdf
+*.pdb
+*.obj
+*.tmp
+*.log
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore packaged builds
+Windows/
+Linux/
+Mac/
+
+# Optional: ignore crash dumps
+crashinfo--*
+
+# Keep source + content
+!Source/
+!Content/
+!Config/
+!Plugins/
