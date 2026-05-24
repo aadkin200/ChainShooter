@@ -38,8 +38,13 @@ Mac/
 # Optional: ignore crash dumps
 crashinfo--*
 
-# Keep source + content
-!Source/
-!Content/
-!Config/
-!Plugins/
+# Ensure Git deeply scans these folders regardless of other rules
+!Config/**
+!Source/**
+!Content/**
+!Plugins/**
+
+# Explicitly protect Unreal asset formats from generic cleanup rules
+!*.uproject
+!*.uasset
+!*.umap
